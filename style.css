@@ -1,0 +1,39 @@
+/* Resetowanie stylów domyślnych */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    border: 1px red solid;
+    overflow: hidden;
+}
+
+.background {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.5); /* półprzezroczyste tło */
+    font-size: 1.5rem;
+    z-index: 1;
+}
