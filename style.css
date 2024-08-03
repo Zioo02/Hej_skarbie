@@ -1,8 +1,12 @@
-/* Resetowanie stylów domyślnych */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: montserrat;
+    font-weight: 400;
 }
 
 
@@ -11,13 +15,12 @@
     position: relative;
     width: 100vw;
     height: 100vh;
-    margin: auto;
     border: 1px red solid;
     overflow: hidden;
 }
 
 .background {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     display: block;
@@ -34,6 +37,12 @@
     justify-content: center;
     color: white;
     background: rgba(0, 0, 0, 0.5); /* półprzezroczyste tło */
-    font-size: 1.5rem;
     z-index: 1;
+    padding: 15px;
+    text-align: center;
+}
+
+.overlay h1 {
+    font-weight: 500;
+    font-size: 2em;
 }
