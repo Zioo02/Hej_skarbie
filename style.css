@@ -16,7 +16,6 @@
     position: relative;
     width: 100vw;
     height: 100vh;
-    border: 1px red solid;
     overflow: hidden;
 }
 
@@ -86,7 +85,8 @@
 
 .sekcja3 {
     padding: 20px;
-    background-color: gray;
+    background-color: rgb(122, 60, 122);
+    color: white;
 }
 
 .sekcja3 img {
